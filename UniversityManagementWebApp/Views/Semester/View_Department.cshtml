@@ -1,0 +1,107 @@
+﻿@using System.Security.Cryptography.X509Certificates
+@using System.ServiceModel.Channels
+@using Microsoft.Ajax.Utilities
+@model IEnumerable<UniversityManagementWebApp.Models.Department>
+
+
+
+@{
+    Layout = null;
+    int i = 1;
+     
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View Department</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="~/css/style.css" rel="stylesheet" />
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: darkcyan;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8f9f8;
+        }
+    </style>
+  
+   
+</head>
+<body>
+    <body>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                    <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                    <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                    <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                    <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                    <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                    <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                    <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                    <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                    <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                    <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                    <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                    <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+                </ul>
+              
+            </div>
+        </nav>
+        <div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="formheaders">All Department</div>
+                   
+                    
+                    <table class="table table-bordered" style="margin-top:10px;">
+
+                       
+                        <tr><th>SL#</th><th>Name</th><th>Code</th></tr>
+                        @foreach (var departmentsList in Model)
+                        {
+                            int j = i ++;
+                            <tr><td>@j</td><td>@departmentsList.Name</td><td>@departmentsList.Code</td></tr>
+                        }
+
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div class="jumbotron text-center">
+            <h2>&copy;HackslasH-2016</h2>
+            <p>We specialize in nothing</p>
+        </div>
+        <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+        <script>
+            $(document).onload(function() {
+                $("table").hide(100);
+            });
+            $(document).ready(function () {
+                $("table").show(10000);
+
+            });
+        </script>
+
+        
+
+    </body>
+</html>

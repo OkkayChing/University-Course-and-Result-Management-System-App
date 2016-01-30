@@ -1,0 +1,97 @@
+﻿@using System.ServiceModel.Channels
+@using UniversityManagementWebApp.Models
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Assign Course to Student's</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/DatePicker/datepicker.css" rel="stylesheet" />
+    <link href="~/css/tooltpister.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <style>
+        .activehover {
+            background-color: red;
+        }
+    </style>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse" style="color: red;">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav" style="color: white;">
+                <li style="background-color: red"><a href="#">Home</a></li>
+                <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="formheaders">
+               University Management System
+            </div>
+          
+          </div>
+    </div>
+
+
+
+
+    <div class="jumbotron text-center">
+        <h1>&copy; HACKSLASH</h1>
+        <p>We specialize in blablabla</p>
+    </div>
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
+
+    <script src="~/DatePicker/script/datepicker.js"></script>
+    <script src="~/Scripts/jquery.tooltipster.js"></script>
+  
+
+
+            
+    <script>
+        $(document).ready(function () {
+            $("#message").show(function () {
+                var div = $("#messagelevel");
+                div.animate({ fontSize: '20px', width: '100%', height: '36px' }, 1000);
+
+            });
+            $("#message").hide(10000);
+
+        });
+
+    </script>
+</body>
+</html>

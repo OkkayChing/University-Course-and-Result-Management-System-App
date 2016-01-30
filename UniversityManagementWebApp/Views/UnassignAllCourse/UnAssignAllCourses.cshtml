@@ -1,0 +1,174 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Student Registration</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/DatePicker/datepicker.css" rel="stylesheet" />
+    <link href="~/css/tooltpister.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse" style="color: red;">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="form-style">
+                <div class="formheaders">
+                    Student Registration
+                    <div class="messagecotainer">
+                        @if (ViewBag.Message != null)
+                        {
+                            <div id="message" style="color: red">
+                                <div id="messagelevel">
+                                    @ViewBag.Message
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+                <form method="post" action="" id="UnassignAllCourse" class="form-horizontal" style="margin-top: 15px;">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="CourseName">Are You Human ?</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="ConfirmCode" name="CourseName" value="" >
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control" id="RandomValue" name="RandomValue" value="123" disabled>
+                        </div>
+                        <div class="col-sm-3">
+                            <input type="button" class="btn btn-primary form-control " id="Check" name="submit" value="Try to Another One" >
+                        </div>
+                    </div>
+                   
+
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" class="btn btn-custom form-control " id="submit" name="submit" value="Unassign All Course's"  style="margin-bottom: 15px;">
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="jumbotron text-center">
+        <h2>&copy;HackslasH-2016</h2>
+        <p>We specialize in nothing</p>
+    </div>
+
+
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/DatePicker/script/datepicker.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.tooltipster.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('#UnassignAllCourse input[type="text"],select').tooltipster({
+                animation: 'swing',
+                trigger: 'custom',
+                onlyOne: false,
+                position: 'right'
+            });
+
+
+            $("#UnassignAllCourse").validate({
+                errorPlacement: function (error, element) {
+                    $(element).tooltipster('update', $(error).text());
+                    $(element).tooltipster('show');
+                },
+                success: function (label, element) {
+                    $(element).tooltipster('hide');
+                },
+                rules:
+                {
+                    ConfirmCode: {
+                        required:true
+                    }
+                },       
+                messages:
+                {
+                    ConfirmCode:"Please Fill Up  the Text Box  By  Confirm Code"
+                    
+                }
+
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#Description").focus(function () {
+                $(this).animate({ "height": "100px" }, "slow");
+                return false;
+            });
+
+
+        });
+
+        $(document).ready(function () {
+            $("#message").show(function () {
+                var div = $("#messagelevel");
+                div.animate({ fontSize: '18px', width: '100%', height: '35px' }, 1000);
+
+            });
+
+
+            $("#message").hide(15000);
+
+        });
+
+    </script>
+
+
+    @*$("#Check").click(function() {
+    var x = Math.floor((Math.random() * 50) + 100);
+    $("#RandomValue").val(x);
+    });
+    $("#submit").submit(function() {
+    if ($("#RandomValue").val(x) == $("#ConfirmCode").val()) {
+    return true;
+    } else {
+    $("#RandomValue").val("Code Not Match , Click the Button To Another One");
+    return false;
+    }
+    });*@
+
+</body>
+</html>

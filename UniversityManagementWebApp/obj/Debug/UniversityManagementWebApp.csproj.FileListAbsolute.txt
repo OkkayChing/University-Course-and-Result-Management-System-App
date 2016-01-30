@@ -1,0 +1,283 @@
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll.config
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.pdb
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Owin.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\WebGrease.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.pdb
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.csprojResolveAssemblyReference.cache
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.dll
+F:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll.config
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Owin.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\WebGrease.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.pdb
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.csprojResolveAssemblyReference.cache
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll.config
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Owin.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\WebGrease.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.pdb
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.csprojResolveAssemblyReference.cache
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\course_asign_asp\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll.config
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Owin.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\WebGrease.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.pdb
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.csprojResolveAssemblyReference.cache
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.pdb
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.pdfa.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\Rotativa.dll
+E:\Rakib Tutorial\asp\mvc\final_project\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll.config
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\UniversityManagementWebApp.pdb
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.pdfa.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Owin.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Rotativa.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\WebGrease.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\itextsharp.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Helpers.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Mvc.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Optimization.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.Razor.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Newtonsoft.Json.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.dll
+C:\Users\Tokhin\Desktop\final\rakinb\F_P\UniversityManagementWebApp\UniversityManagementWebApp\obj\Debug\UniversityManagementWebApp.pdb

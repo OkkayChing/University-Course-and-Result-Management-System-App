@@ -1,0 +1,56 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,400' rel='stylesheet' type='text/css'>
+
+   
+   
+
+    <link href="~/css/startstylestyle.css" rel="stylesheet" />    <!-- Resource style -->
+
+    <script src="~/Scripts/modernizr.js"></script>   <!-- Modernizr -->
+
+    <title>Started Page</title>
+</head>
+<body>
+    <section class="cd-intro">
+        <div class="cd-intro-content mask-2">
+            <div class="content-wrapper">
+                <div>
+                    <h1>Wellcome to our  Project</h1> 
+                    <h1>University Managemaent System</h1>
+                    <p>Problem Is nothing If you try to do it's Soluation</p>
+                   
+                    <div class="action-wrapper">
+                        <a href="semester/Save_Department" class="cd-btn main-action" id="button">Get started</a>
+                      
+                        
+                       
+                        <a href="semester/About_hacksalsh" class="cd-btn">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/startingpage.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#button").click(function() {
+                $(".cd-intro").hide(100);
+            });
+        });
+    </script>
+    <!-- Resource jQuery -->
+</body>
+</html>

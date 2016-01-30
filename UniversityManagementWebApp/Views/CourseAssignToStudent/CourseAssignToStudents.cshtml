@@ -1,0 +1,266 @@
+﻿@using System.ServiceModel.Channels
+@using UniversityManagementWebApp.Models
+@{
+    List<Student> StudentRegNumList = ViewBag.StudentRegNumList;
+}
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+   
+
+
+
+
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Assign Course to Student's</title>
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/DatePicker/datepicker.css" rel="stylesheet" />
+    <link href="~/css/tooltpister.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <style>
+        .activehover {
+            background-color: red;
+        }
+    </style>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse" style="color: red;">
+        <div class="container-fluid">
+
+            <ul class="nav navbar-nav" style="color: white;">
+                <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+            </ul>
+           
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="formheaders">
+                Course Assign to Student's
+                <div class="messagecotainer">
+                    @if (ViewBag.Message != null)
+                    {
+                        <div id="message">
+                            <div id="messagelevel">
+                                @ViewBag.Message
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+
+            <form class="form-horizontal" method="POST" style="margin-top: 20px;" name="course_assign_form" id="course_assign_form">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="StudentRegNum">Registration Number:</label>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="StudentRegNum" name="StudentRegNum">
+                            <option value="">Select a Student.....</option>
+                            @foreach (var RegNumList in StudentRegNumList)
+                            {
+                                <option value="@RegNumList.RegistrationNumber">@RegNumList.RegistrationNumber</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="Name">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="Name" name="Name"  disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="Email">Email</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="Email" name="Email"  disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="DepartmentId">Department</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="DepartmentId"  name="DepartmentId" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="CourseId">Course</label>
+                    <div class="col-sm-9">
+                        <select class="form-control" id="CourseId" name="CourseId">
+                            <option value="">Select a Course.....</option>
+                        </select>
+                    </div>
+                </div>
+               
+                
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="Date">Date</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="Date" name="Date" >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-6">
+                        <button type="submit" class="btn btn-custom form-control" id="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="jumbotron text-center">
+        <h2>&copy;HackslasH-2016</h2>
+        <p>We specialize in nothing</p>
+    </div>
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script>
+        $("#StudentRegNum").change(function () {
+
+            var regNum = $("#StudentRegNum").val();
+            var json = { RegNum: regNum };
+            $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetDepartmentName", "CourseAssignToStudent")',
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(json),
+            success: function (data) {
+                $('#Email').val(data.StudentEmail);
+                $('#Name').val(data.StudentName);
+                $('#DepartmentId').val(data.DepartmentName);
+            },        
+
+            });
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("GetAllCourseByStudentRegNum", "CourseAssignToStudent")',
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(json),
+
+                success: function (data) {
+                    $('#CourseId').empty();
+                    $("#CourseId").append('<option value="">Select a Course.....</option>');
+                    $.each(data, function (key, value) {
+                        $("#CourseId").append('<option value=' + value.Id + '>' + value.Name + '</option>');
+                    });
+                },
+
+            });
+
+
+     });
+    </script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+
+
+    <script src="~/DatePicker/script/datepicker.js"></script>
+    <script src="~/Scripts/jquery.tooltipster.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var today = new Date();
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1; //As January is 0.
+            var yyyy = today.getFullYear();
+
+            if (dd < 10) dd = '0' + dd;
+            if (mm < 10) mm = '0' + mm;
+            var date = mm + '/' + dd + '/' + yyyy;
+            $("#Date").val(date);
+
+            $("#Date").datepicker({
+                changeMonth: true,
+                changeYear: true,
+            });
+
+            $('#course_assign_form input[type="text"],select').tooltipster({
+                animation: 'fadeOut',
+                trigger: 'custom',
+                onlyOne: false,
+                position: 'right'
+            });
+
+
+            $("#course_assign_form").validate({
+                errorPlacement: function (error, element) {
+                    $(element).tooltipster('update', $(error).text());
+                    $(element).tooltipster('show');
+                },
+                success: function (label, element) {
+                    $(element).tooltipster('hide');
+                },
+
+
+                rules:
+                {
+                    StudentRegNum:
+                    {
+                        required: true,
+
+                    },
+                    CourseId:
+                    {
+                        required: true,
+
+                    }
+                   
+                },
+                messages: {
+                    StudentRegNum:
+                    {
+                        required: "Please select a Student Registration Number",
+                       
+                    },
+                   
+                    CourseId:
+                   {
+                       required: "Please select a Course's",
+                      
+                   }
+
+                }
+
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#message").show(function () {
+                var div = $("#messagelevel");
+                div.animate({ fontSize: '20px', width: '100%', height: '36px' }, 1000);
+
+            });
+            $("#message").hide(10000);
+
+        });
+
+    </script>
+</body>
+</html>

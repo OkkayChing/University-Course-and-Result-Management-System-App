@@ -1,0 +1,256 @@
+﻿@using UniversityManagementWebApp.Models
+@model IEnumerable<UniversityManagementWebApp.Models.Department>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Course Entry</title>
+
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/css/tooltpister.css" rel="stylesheet" />
+        <link href="~/css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <body>
+
+            <nav class="navbar navbar-inverse" style="color: red;">
+                <div class="container-fluid">
+                   
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                        <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                        <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                        <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                        <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                        <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                        <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                        <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                        <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                        <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                        <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                        <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                        <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+                       
+                    </ul>
+                   
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="form-style">
+                        <div class="formheaders">
+                            Course Entry
+                            <div class="messagecotainer">
+                                @if (ViewBag.Message != null)
+                                {
+                                    <div id="message">
+                                        <div id="messagelevel">
+                                            @ViewBag.Message
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        <form method="post" action="" id="course_save_form" class="form-horizontal" style="margin-top: 15px;">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="Code">Course Code</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="Code" id="Code" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="Name">Course Name</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="Name" id="Name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="Credit">Course Credit</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="Credit" id="Credit" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="Description">Course Description</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="Description" id="Description" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="DepartmentId">Department</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="DepartmentId" id="DepartmentId">
+                                        <option value="">~~Select Department~~</option>
+                                        @foreach (var departmentList in Model)
+                                        {
+                                            <option value="@departmentList.Id">@departmentList.Name</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="SemesterId">Semester</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="SemesterId" id="SemesterId">
+                                        <option value="">~~Select Semester~~</option>
+                                        <option value="1">Fall-2016</option>
+                                        <option value="2">Spring-2016</option>
+                                        <option value="3">Summer-2016</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" class="btn btn-custom form-control " id="submit" name="submit" value="Save" onclick="rakib()" style="margin-bottom: 15px;">
+                            </div>
+
+
+                        </form>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="jumbotron text-center">
+            <h2>&copy;HackslasH-2016</h2>
+            <p>We specialize in nothing</p>
+        </div>
+
+
+        <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.tooltipster.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#count").hide();
+                $("#barbox").hide();
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#course_save_form input[type="text"],select').tooltipster({
+                    animation: 'swing',
+                    trigger: 'custom',
+                    onlyOne: false,
+                    position: 'right'
+                });
+
+
+
+                $("#course_save_form").validate({
+                    errorPlacement: function (error, element) {
+                        $(element).tooltipster('update', $(error).text());
+                        $(element).tooltipster('show');
+                    },
+                    success: function (label, element) {
+                        $(element).tooltipster('hide');
+                    },
+                    rules:
+                    {
+                    Code:{
+                        required:true,
+                        minlength: 5
+                    },
+                        Name:
+                        {
+                            required: true
+
+                        },
+                        Description:
+                        {
+                            required: true
+                        },
+                       
+                        DepartmentId:
+                        {
+                            required: true,
+                            min: 0
+
+                        },
+                        SemesterId:
+                       {
+                           required: true,
+                           min: 0
+
+                       },
+
+                        Credit:
+                        {
+                            required: true,
+                            number: true,
+                            range: [0.5, 5]
+                        }
+
+                    },
+                    messages:
+                    {
+                        Name: "Course Name is Rquired",
+                        Code:
+                            {
+                                required: "Course Code is Rquired",
+                                minlength: "Type at least Five Charcter"
+                            },                        
+                        Description:
+                        {
+                            required: "Description is Required"
+                        },
+                        
+                        DepartmentId: {
+                            required: "Please Select a Department",
+                            min: "Please Select a Department"
+                        },
+                        SemesterId: {
+                            required: "Please Select a Semester",
+                            min: "Please Select a Semester"
+                        },
+
+                        Credit: {
+                            required: "Credit is Required",
+                            number: "Provide a Number",
+                            range: "Credit also .5 to 5"
+                        }
+                    }
+
+                });
+            });
+    </script>
+                      
+            <script>
+                $(document).ready(function () {
+                    $("#Description").focus(function () {
+                        $(this).animate({ "height": "100px" }, "slow");
+                        return false;
+                    });
+
+
+                });
+            
+                $(document).ready(function () {
+                    $("#message").show(function () {
+                        var div = $("#messagelevel");
+                        div.animate({ fontSize: '18px', width: '100%', height: '35px' }, 1000);
+
+                    });
+
+
+                    $("#message").hide(15000);
+
+                });
+
+            </script>
+
+
+    </body>
+</html>
+
+
+

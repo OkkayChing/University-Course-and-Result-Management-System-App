@@ -1,0 +1,345 @@
+﻿@using UniversityManagementWebApp.Models
+@{
+    Layout = null;
+    List<Department> departmentsList = ViewBag.departmentsList;
+    List<Room> roomList = ViewBag.roomList;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RoomAllocation</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/tooltpister.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+
+        <nav class="navbar navbar-inverse" style="color: red;">
+            <div class="container-fluid">
+
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                    <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                    <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                    <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                    <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                    <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                    <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                    <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                    <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                    <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                    <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                    <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                    <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+
+                   
+                </ul>
+               
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-style">
+                    <div class="formheaders">
+                        Course Entry
+                        <div class="messagecotainer">
+                            @if (ViewBag.Message != null)
+                            {
+                                <div id="message">
+                                    <div id="messagelevel">
+                                        @ViewBag.Message
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <form method="post" action="" id="roomAllocation_save_form" class="form-horizontal" style="margin-top: 15px;">
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="DepartmentId">Department</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" name="DepartmentId" id="DepartmentId">
+                                    <option value="">Select Department.....</option>
+                                    @foreach (var departmentList in departmentsList)
+                                    {
+                                        <option value="@departmentList.Id">@departmentList.Name</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="CourseId">Course</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" name="CourseId" id="CourseId">
+                                    <option value="">Select a Course.....</option>
+
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="RoomNo">Room</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" name="RoomNo" id="RoomNo">
+                                    <option value="">Select a Room.....</option>
+                                    @foreach (var roomLists in roomList)
+                                    {
+                                        <option value="@roomLists.RoomNo">@roomLists.RoomNo</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="DayList">Day</label>
+                            <div class="col-sm-9">
+
+                                <select class="form-control" name="DayList" id="DayList">
+                                    <option value="">Select a Day.....</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="FromTime">From</label>
+                            <div class="col-sm-3">
+                                <input type="text" name="FromTime" id="FromTime" class="form-control">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="radio" name="FromExtension" id="FromExtension" class="form-control" value="AM">
+                            </div>
+                            <div class="col-sm-1">
+                                <p style="margin-top: 10px; margin-left: -20px;">AM</p>
+                            </div>
+                            <div class="col-sm-1" style="margin-left: -40px;">
+                                <input type="radio" name="FromExtension" id="FromExtension" class="form-control" value="PM">
+                            </div>
+                            <div class="col-sm-1">
+
+                                <p style="margin-top: 10px; margin-left: -20px;">PM</p>
+                            </div>
+                            <div class="col-sm-3">
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="ToTime">To</label>
+                            <div class="col-sm-3">
+                                <input type="text" name="ToTime" id="ToTime" class="form-control">
+                            </div>
+                            <div class="col-sm-1">
+                                <input type="radio" name="ToExtension" id="ToExtension" class="form-control" value="AM">
+                            </div>
+                            <div class="col-sm-1">
+                                <p style="margin-top: 10px; margin-left: -20px;">AM</p>
+                            </div>
+                            <div class="col-sm-1" style="margin-left: -40px;">
+                                <input type="radio" name="ToExtension" id="ToExtension" class="form-control" value="PM">
+                            </div>
+                            <div class="col-sm-1">
+
+                                <p style="margin-top: 10px; margin-left: -20px;">PM</p>
+                            </div>
+                            <div class="col-sm-3">
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <input type="submit" class="btn btn-custom form-control " id="submit" name="submit" value="Save" onclick="rakib()" style="margin-bottom: 15px;">
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="jumbotron text-center">
+            <h2>&copy;HackslasH-2016</h2>
+            <p>We specialize in nothing</p>
+        </div>
+
+
+        <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.tooltipster.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function () {
+            $("#DepartmentId").change(function () {
+                var departmentId = $("#DepartmentId").val();
+                var json = { DepartmentId: departmentId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetCourseListByDepartmentId", "RoomAllocate")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        //$('#Id').empty();
+                        //$('#CourseId').empty();
+                        //$('#CredittobeTaken').val("");
+                        $('#CourseId').empty();
+                        $("#CourseId").append('<option value="">Select a Course.....</option>');
+                        $.each(data, function (key, value) {
+                            $("#CourseId").append('<option value=' + value.Id + '>' + value.Name + '</option>');
+                        });
+                    },
+                });
+            });
+        });
+        </script>
+        <script>
+            var daylist = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+
+            for (var i = 0; i < daylist.length; i++) {
+
+                $("#DayList").append('<option value=' + daylist[i] + '>' + daylist[i] + '</option>');
+            }
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('#roomAllocation_save_form input[type="text"],select').tooltipster({
+                    animation: 'swing',
+                    trigger: 'custom',
+                    onlyOne: false,
+                    position: 'right'
+                });
+
+
+
+                $("#roomAllocation_save_form").validate({
+                    errorPlacement: function (error, element) {
+                        $(element).tooltipster('update', $(error).text());
+                        $(element).tooltipster('show');
+                    },
+                    success: function (label, element) {
+                        $(element).tooltipster('hide');
+                    },
+                    rules:
+                    {
+                        DepartmentId: {
+                            required: true,
+                            min: 0
+                        },
+                        CourseId:
+                        {
+                            required: true,
+                            min: 0
+
+                        },
+                        DayList:
+                        {
+                            required: true
+                        },
+
+
+                        RoomNo:
+                        {
+                            required: true,
+
+
+                        },
+
+                        Credit:
+                        {
+                            required: true,
+                            number: true,
+                            range: [0.5, 5]
+                        }
+
+                    },
+                    messages:
+                    {
+                        Name: "Course Name is Rquired",
+                        Code:
+                        {
+                            required: "Course Code is Rquired",
+                            minlength: "Type at least Five Charcter"
+                        },
+                        DayList:
+                        {
+                            required: "Day is Required"
+                        },
+
+                        DepartmentId: {
+                            required: "Please Select a Department",
+                            min: "Please Select a Department"
+                        },
+                        RoomNo: {
+                            required: "Please Select a Room Number",
+
+                        }
+
+
+                    }
+
+                });
+            });
+        </script>
+
+
+
+        <script>
+            $(document).ready(function () {
+                $("#FromTime").keyup(function () {
+                    var maxNumbOfWords = 5;
+                    var name = $("#FromTime").val();
+                    if (name.length > 1 && name.length < 3) {
+                        name = name + ":";
+                        $("#FromTime").val(name);
+                        return false;
+                    }
+                    else if (name.length > 4 && name.length < 6) {
+                        return false;
+                    }
+                    $("#FromTime").val(name.substr(0, maxNumbOfWords));
+                });
+                $("#ToTime").keyup(function () {
+                    var maxNumbOfWords = 5;
+                    var name = $("#ToTime").val();
+                    if (name.length > 1 && name.length < 3){
+                        name = name + ":";
+                        $("#ToTime").val(name);
+                        return false;
+                    }
+                    else if (name.length > 4 && name.length < 6) {
+                        return false;
+                    }
+                    $("#ToTime").val(name.substr(0, maxNumbOfWords));
+                });
+
+
+            });
+
+            $(document).ready(function () {
+                $("#message").show(function () {
+                    var div = $("#messagelevel");
+                    div.animate({ fontSize: '18px', width: '100%', height: '35px' }, 1000);
+
+                });
+
+
+                $("#message").hide(15000);
+
+            });
+
+        </script>
+    </div>
+</body>
+</html>

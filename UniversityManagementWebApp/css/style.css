@@ -1,0 +1,121 @@
+﻿
+
+.header{
+	width: auto;
+	text-align: center;
+	height: auto;
+
+
+}
+.deptment{
+	border: 1px solid #eee;
+	border-radius: 2px;
+	background: #eee;
+}
+#progressbar{
+	width:10px;
+	height:8px;
+    border-radius:4px;
+}
+#barbox {
+	float:right;
+	height:10px;
+	background-color:#FFFFFF;
+	width:100px;
+	border:solid 1px darkcyan;
+    margin-right: 9%;
+    margin-top: 3px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+    
+}
+#count {
+	float:right;
+	margin-right:8px;
+	font-family:'Georgia', Times New Roman, Times, serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+.navbar {
+    background-color: darkcyan;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.row {
+    background-color: #eee;
+    margin-top: -21px;
+}
+.col-md-6 {
+    border-right: 1px solid red;
+     border-left: 1px solid red;
+    
+}
+.col-md-7 {
+    margin-bottom: 20px;
+}
+.jumbotron {
+    border-top: 2px solid red;
+    background-color: darkcyan;
+    margin-top: -1px;
+}
+.messagecotainer{
+    height:50px;
+    align-content:center;
+   
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+
+}
+.activehover {
+    background-color: red;
+}
+#messagelevel{
+    height:0px;
+    width:0px;
+    color:#fff;
+    background-color:darkcyan;
+    border-radius:10px;
+    padding:2px;
+    position:fixed;
+    border:1px solid red;
+     box-shadow: 2px 2px 10px 2px grey;
+     margin-top:6px;
+     text-align:center;
+     margin-left:auto;
+    margin-right:auto;
+    position:absolute;
+}
+label{
+    font-family:'Global Sans Serif';
+    color:darkcyan;
+}
+
+.formheaders{
+    margin-top:5px;
+    color:darkcyan;
+    text-align:center;
+    font-family:'Global Sans Serif';
+    font-style:italic;
+    font-size:2em;
+    border-bottom:1px solid red;
+}
+
+.formheadercourseStatics {
+    margin-top:5px;
+    color:darkcyan;
+    text-align:center;
+    font-family:'Global Sans Serif';
+    font-style:italic;
+    font-size:2em;
+    border-bottom:1px solid red;
+}
+

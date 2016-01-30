@@ -1,0 +1,212 @@
+﻿@using System.ServiceModel.Channels
+@model IEnumerable<UniversityManagementWebApp.Models.Department>
+    @{
+        Layout = null;
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Save_Department</title>
+
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/css/tooltpister.css" rel="stylesheet" />
+        <link href="~/css/style.css" rel="stylesheet" />
+
+        <style>
+            .activehover {
+                background-color: red;
+            }
+        </style>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    </head>
+    <body>
+        
+
+            <nav class="navbar navbar-inverse" style="color: red;">
+                <div class="container-fluid">
+                   
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Semester")</li>
+                        <li>@Html.ActionLink("Save Department", "Save_Department", "Semester")</li>
+                        <li>@Html.ActionLink("View Department", "View_Department", "Semester")</li>
+                        <li>@Html.ActionLink("Save Course", "Save_course", "Semester")</li>
+                        <li>@Html.ActionLink("Save Teacher", "Save_Teacher", "Semester")</li>
+                        <li>@Html.ActionLink("Assign a course to Teacher's", "AssignCourseToTeachers", "Semester")</li>
+                        <li>@Html.ActionLink("Course Statics", "CourseStatics", "CourseStatics")</li>
+                        <li>@Html.ActionLink("Room Allocation", "RoomAllocation", "RoomAllocate")</li>
+                        <li>@Html.ActionLink("Student Registration", "Save_Student", "Student")</li>
+                        <li>@Html.ActionLink("Enroll In a Course's", "CourseAssignToStudents", "CourseAssignToStudent")</li>
+                        <li>@Html.ActionLink("Result Entry", "SaveResult", "StudentResult")</li>
+                        <li>@Html.ActionLink("View Result", "ViewResult", "StudentResult")</li>
+                        <li>@Html.ActionLink("UnAssign All Course's", "UnAssignAllCourses", "UnassignAllCourse")</li>
+                       
+                    </ul>
+                 
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="form-style">
+                        <div class="formheaders">
+                            Department Entry
+                            <div class="messagecotainer">
+                                @if (ViewBag.Message != null)
+                                {
+                                    <div id="message">
+                                        <div id="messagelevel">
+                                            @ViewBag.Message
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                            <div id="barbox">
+                                <div id="progressbar">
+                                </div>
+                            </div>
+                            <div id="count">7</div>
+                        </div>
+                        <form method="post" action="" id="dept_save_form" class="form-horizontal">
+                            <div class="form-group" style="margin-top: 15px;">
+                                <label class="control-label col-sm-2" for="Code">Department Code</label>
+                                
+                                <div class="col-sm-9">
+                                    <input type="text" name="Code" id="Code" class="form-control">
+                                </div>
+                                <div class="col-sm-2"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="Name">Department Name</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="Name" id="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" class="btn btn-custom form-control " id="submit" name="submit" value="Save" style="margin-bottom: 15px;">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="jumbotron text-center">
+                <h2>&copy;HackslasH-2016</h2>
+                <p>We specialize in nothing</p>
+            </div>
+
+            <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+            <script src="~/Scripts/jquery.validate.min.js"></script>
+            <script src="~/Scripts/jquery.tooltipster.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#count").hide();
+                    $("#barbox").hide();
+                });
+            </script>
+            <script type="text/javascript">
+                $(document).ready(function () {
+
+                    $('#dept_save_form input[type="text"],select').tooltipster({
+                        animation: 'fadeIn',
+                        trigger: 'custom',
+                        onlyOne: false,
+                        position: 'right'
+                    });
+                   
+
+
+                    $("#dept_save_form").validate({
+                        errorPlacement: function(error, element) {
+                            $(element).tooltipster('update', $(error).text());
+                            $(element).tooltipster('show');
+                        },
+                        success: function(label, element) {
+                            $(element).tooltipster('hide');
+                        },
+
+                    
+                        rules:
+                        {
+                            Code:
+                            {
+                                required: true,
+                                minlength: 2
+                            },
+                            Name:
+                            {
+                                required: true,
+                                number: false
+                            }
+                        },
+                        messages: {
+
+                        }
+
+                    });
+                });
+                    </script>
+            <script>
+                $(document).ready(function () {
+                   
+                    $("#Code").keyup(function () {
+                        $("#count").show();
+                        $("#barbox").show();
+                    });
+                    $("#Code").keyup(function ()
+                    {
+                       
+                        var Code = $(this).val();
+                        var max_numb_of_words = 7;
+                        var main = Code.length * 100;
+                        var value = (main / max_numb_of_words);
+                        var count = 0 + Code.length;
+                        if (Code.length <= max_numb_of_words)
+                        {
+                            $("#progressbar").css("background-color", "darkcyan");
+                            $('#count').html(count);
+                            $('#progressbar').animate(
+                            {
+                                "width": value + '%',
+                            }, 1);
+                        }
+                        else
+                        {
+                            if (Code.length == 1) {
+                                document.getElementById("count").innerHTML = "Plz Type more";
+                            }
+                            else
+                            {
+                                $("#progressbar").css("background-color", "red");
+                                document.getElementById("count").innerHTML = "Sorry You Can't type 7 characters Long";
+                                $("#Code").val(Code.substr(0, max_numb_of_words));
+                            }
+                        }
+                        return false;
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function () {
+                    $("#message").show(function () {
+                        var div = $("#messagelevel");
+                        div.animate({ fontSize: '18px', width: '100%', height: '35px'}, 1000);
+                       
+                    });
+
+
+                    $("#message").hide(15000);
+
+                });
+
+            </script>
+
+        </body>
+</html>
